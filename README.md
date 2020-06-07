@@ -10,4 +10,4 @@ ADODataAccess is API which encapsulates all the implementation to connect and fe
 
 
 Using ADODataAccess 
-We may recommend to use BaseDataAccess as base class of any other class, ideally your actual DataAccess component. If you think, you don't need full DataAccess layer, the you can make this concrete class by removing abstract keyword from declaration  and also make its protected methods to public/internal as per requirements.
+We may recommend to use SqlDataAccessLayer as base class of any other class, ideally your actual DataAccess component. If you think, you don't need full DataAccess layer, the you can make this concrete class by removing abstract keyword from declaration  and also make its protected methods to public/internal as per requirements.
